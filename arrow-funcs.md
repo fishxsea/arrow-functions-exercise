@@ -32,7 +32,7 @@ function squareAndFindEvens(numbers){
 **Refactored**
 
 ```js
-const sfe = (numbers) => numbers.map(num => num * num ).filter(sqr => sqr % 2 === 0)
+const squareFindEvens = (numbers) => numbers.map(num => num * num ).filter(sqr => sqr % 2 === 0)
 ```
 
 
